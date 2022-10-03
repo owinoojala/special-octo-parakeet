@@ -12,7 +12,7 @@ from django.conf import settings
 
 
 generate_token = TokenGenerator()
-
+# TO BE MODIFED
 def register(request):
     context = {'pay_m': p_method, 'address':address}
     if request.method == 'POST':
